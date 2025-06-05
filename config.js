@@ -9,7 +9,7 @@ export const config = {
   guildId: process.env.GUILD_ID,
 
   bot: {
-    intents: ["Guilds"],
+    intents: ["Guilds", "GuildVoiceStates"],
     presence: {
       name: "you babo",
       type: ActivityType.Playing,
