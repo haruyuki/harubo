@@ -1,4 +1,5 @@
 import dotenv from "dotenv"
+import { ActivityType } from "discord.js";
 
 dotenv.config()
 
@@ -11,7 +12,7 @@ export const config = {
     intents: ["Guilds"],
     presence: {
       name: "you babo",
-      type: "Playing",
+      type: ActivityType.Playing,
     },
     version: "1.0.0"
   }
